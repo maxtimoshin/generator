@@ -1,10 +1,11 @@
-
 @import "./header.css";
 @import "./main.css";
 @import "./footer.css";
 @import "./swiper-slider.css";
 @import "./fonts.css";
 @import "./normalize.css";
+@import "./burger-nav.css";
+@import "./adaptive.css";
 
 
 body.lock {
@@ -23,10 +24,6 @@ body.lock {
     --fs-24: 1.5rem;
     --fs-40: 2.5rem;
 }
-
-
-@import "./burger-nav.css";
-@import "./adaptive.css";
 
 .wrapper {
     width:100%;
