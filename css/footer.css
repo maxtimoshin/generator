@@ -2,6 +2,7 @@
     width:100%;
     height: 178px;
     background: #212121;
+    overflow-x: hidden;
 }
 
 .inner-footer {

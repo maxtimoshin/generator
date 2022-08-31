@@ -3,7 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+    overflow-x:hidden;
+}
+
+.inner-main {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-us-container {
@@ -17,6 +24,7 @@
 
 .about-us-slider {
     max-width: 420px;
+    width:100%;
     min-width: 320px;
     min-height: 720px;
     margin: 0;
@@ -176,6 +184,10 @@
     grid-row-gap: 70px;
     position: relative;
     width: 100%;
+}
+
+.office-item {
+    margin:0 auto;
 }
 
 .office-item,
@@ -432,6 +444,7 @@
     color: #2D2C2C;
     background: #AEC8F2;
     cursor: pointer;
+    width:fit-content;
 }
 
 .bistro-container {
