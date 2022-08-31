@@ -1,0 +1,38 @@
+.footer {
+    width:100%;
+    height: 178px;
+    background: #212121;
+}
+
+.inner-footer {
+    margin:0 auto;
+    max-width:1174px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.inner-footer .contacts {
+    color:#fff;
+    font-size: var(--fs-18);
+    font-weight: var(--fw-b);
+    line-height: 22px;
+}
+
+.inner-footer .social {
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.inner-footer .social a img {
+    width:40px;
+    height: 40px;
+}
+
+.created-by img {
+    width:65px;
+    height: 88px;
+}

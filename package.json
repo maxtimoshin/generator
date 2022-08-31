@@ -1,0 +1,16 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "homepage": "https://maxtimoshin.github.io/generator",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
